@@ -31,6 +31,6 @@ header{
     margin-left: 40px;
 }
 .picture-1 {
-    height: 700px;
-    width: 600px;
+    height: auto;
+    width: auto;
 }
