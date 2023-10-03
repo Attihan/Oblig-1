@@ -1,18 +1,12 @@
 .test{
-    color: white;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+    text-align: justify;
+    background-color: gray;
+    max-width:fit-content;
 }
 
-/*.wrapper{
-    background-color: gray;
-    border-color: lightgray;
-    max-width: 80%;
-    max-height: 1000px;
-    width: 100%;
-    margin: 0%;
-}
-*/
+
 .wrapper{
 background-color: lightgray;
 max-width: 80%;
@@ -26,10 +20,14 @@ h1{
 margin-left: 40px;
 }
 
-header{
-    color: red;
-    margin-left: 40px;
+ul{
+    text-align: center;
+    background-color: white;
+    font-size: x-large;
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    max-width: fit-content;
 }
+
 .picture-1 {
     height: auto;
     width: auto;
