@@ -20,7 +20,7 @@ h1{
 margin-left: 40px;
 }
 
-ul{
+.DWADl{
     text-align: center;
     background-color: white;
     font-size: x-large;
@@ -31,4 +31,13 @@ ul{
 .picture-1 {
     height: auto;
     width: auto;
+}
+
+.headersec{
+    font-size: xx-large;
+    background-color: aqua;
+
+}
+.unord-List {
+    size: 50px;
 }
