@@ -35,9 +35,13 @@ margin-left: 40px;
 
 .headersec{
     font-size: xx-large;
-    background-color: aqua;
+    text-align: center;
 
 }
-.unord-List{
-    size: 500px;
+li{
+    font-size: larger;
+}
+
+.undertekst {
+margin-left: 5%;
 }
