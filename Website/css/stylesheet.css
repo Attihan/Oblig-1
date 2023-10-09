@@ -1,0 +1,86 @@
+
+
+
+.wrapper{
+background-color: lightgray;
+max-width: 70%;
+min-width: 70%;
+width: 100%;
+margin: 0 auto;
+padding: 20px;
+}
+
+
+
+
+/* CSS for first page */
+
+.tittel{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    max-width:fit-content;
+    margin-bottom: 10px;
+}
+
+.headerbakgrunn{
+    background-color: white;
+
+}
+
+.headerlink{
+    display: inline-block;
+    font-size: large;
+}
+
+.metbilde{
+    align-self: center;
+    height: fit-content;
+    position: relative;
+}
+
+.undertittel{
+margin-top: 1px;
+font-size: large;
+
+}
+
+.picture-1 {
+    height: auto;
+    width: 100%;
+    margin-left: 2%
+}
+
+.paragrafer {
+margin: 15px;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+max-width: 800px;
+}
+
+.sub-heading {
+    margin-left: 15%;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.navndato{
+    color: black;
+    display: inline;
+    max-width: fit-content;
+}
+
+hr{
+    height: px;
+    border-color: black;
+}
+
+
+
+
+/* CSS for secondary page  */
+.headersec{
+    font-size: xx-large;
+    text-align: center;
+
+}
