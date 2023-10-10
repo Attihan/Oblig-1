@@ -25,30 +25,37 @@ padding: 20px;
 
 .headerbakgrunn{
     background-color: white;
-
-}
-
-.headerlink{
-    display: inline-block;
+    display: grid;
     font-size: large;
+    width: auto;
+    height: 50px;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
 }
 
-.metbilde{
-    align-self: center;
-    height: fit-content;
-    position: relative;
+
+.headergrid{
+    text-align: end;
 }
+
+.gridlink{
+    text-align: center;
+}
+
 
 .undertittel{
 margin-top: 1px;
 font-size: large;
+}
 
+img{
+    max-width: 100% ;
+    height: auto;
 }
 
 .picture-1 {
-    height: auto;
-    width: 100%;
-    margin-left: 2%
+    margin-left: 2%;
+
 }
 
 .paragrafer {
