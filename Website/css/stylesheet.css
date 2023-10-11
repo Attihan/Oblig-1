@@ -1,8 +1,7 @@
 
 
-
 .wrapper{
-background-color: lightyellow;
+background-color: lightslategray;
 max-width: 70%;
 min-width: 70%;
 width: 100%;
@@ -14,10 +13,11 @@ gap: 10px;
 }
 
 .backgroundcolorp{
-    background-color: #F9ECB6;
+    background-color: lightgray;
     grid-row: 8/11 ;
     grid-column: 2/3;
 }
+
 
 
 /* CSS for first page */
