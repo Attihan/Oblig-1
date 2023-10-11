@@ -12,11 +12,7 @@ grid-template-columns: auto auto auto;
 gap: 10px; 
 }
 
-.backgroundcolorp{
-    background-color: lightgray;
-    grid-row: 8/11 ;
-    grid-column: 2/3;
-}
+
 
 
 
@@ -92,7 +88,11 @@ hr{
     border-color: black;
 }
 
-
+.backgroundcolorp{
+    background-color: lightgray;
+    grid-row: 8/11 ;
+    grid-column: 2/3;
+}
 
 .paragrafer {
 margin: 15px;
@@ -125,9 +125,13 @@ grid-column: 2/4;
 
 
 
-
-
-
+        /* Denne gjør fargeboksen ved paragrafene mindre, rører den ikke til jeg finner ut
+.footer{
+    background-color: aliceblue;
+    grid-row: 11;
+    grid-column: 2;
+}
+*/
 
 
 /* CSS for secondary page  */
