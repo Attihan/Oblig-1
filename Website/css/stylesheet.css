@@ -75,6 +75,15 @@ hr{
     border-color: black;
 }
 
+.metbilde1 {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    
+}
+
+
 
 
 
