@@ -170,16 +170,16 @@ grid-column: 2/3;
 
 
 /* CSS for secondary page  */
-.headersec{
 
-}
 
 .headerpage2
 {
+
     font-size: xx-large;
     text-align: center;
     grid-column: 1;
     grid-row: 1;
+    
 }
 
 .linkpage2{
