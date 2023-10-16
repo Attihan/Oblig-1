@@ -17,8 +17,11 @@ auto : refere til høyre og venstre */
 margin: 0 auto;
 padding: 20px;
 display: grid;
-/* Her oppgir det breddene kolonnen i et  */
+/* Her oppgir det breddene kolonnen
+Samtidig bruket vi "auto" Slik at boksene tilpasser inneholdet dems  */
 grid-template-columns: auto auto auto;
+/*Som navnet tilsier lager den mellomrom(gap) 
+Her velger bruke 10px som standard størrelse for mellomromene */
 gap: 10px; 
 }
 
