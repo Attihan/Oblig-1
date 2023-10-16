@@ -3,7 +3,7 @@ body{
 }
 
 
-
+/* Wrapper : Oppgitt ønsket farge (Bakgrunn farge)  */
 .wrapper{
 background-color: rgb(160,160,160);
 max-width: 70%;
