@@ -1,5 +1,7 @@
+/* Her fargerlegger vi bakgrunn med svakt farge : 
+Slik at fokuset til brukeren er mer mot nettside innhold */
 body{
-    background-color: rgb(95, 98, 101);
+    background-color: rgb(159, 161, 163);
 }
 
 
@@ -29,7 +31,7 @@ gap: 10px;
 
 
 
-/* CSS for first page */
+/* ---------------------CSS for first page * ---------------------------*/
 
 .tittel{
     color: black;
