@@ -104,7 +104,7 @@ font-family:'Times New Roman', Times, serif;
 font-size: larger;
 max-width: 800px;
 grid-row: 8/9;
-grid-column: 2/4;
+grid-column: 2/3;
 }
 
 
@@ -115,7 +115,7 @@ grid-column: 2/4;
     margin: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     grid-row: 9/10;
-    grid-column: 2/4;
+    grid-column: 2/3;
     }
 
     .andreparagrafer{
@@ -124,18 +124,20 @@ grid-column: 2/4;
         font-size: larger;
         max-width: 800px;
         grid-row: 10/11;
-        grid-column: 2/4;
+        grid-column: 2/3;
         }
 
 
 
-        /* Denne gjør fargeboksen ved paragrafene mindre, rører den ikke til jeg finner ut
+        /* Denne gjør fargeboksen ved paragrafene mindre, rører den ikke til jeg finner ut*/
 .footer{
-    background-color: aliceblue;
+    background-color: black;
     grid-row: 11;
     grid-column: 2;
+    text-align: center;
+    color: white;
 }
-*/
+
 
 
 /* CSS for secondary page  */
