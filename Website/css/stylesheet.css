@@ -11,9 +11,13 @@ Slik at det er mer fleksible og enklet å skalere på ulike enheter*/
 max-width: 70%;
 min-width: 70%;
 width: 100%;
+/* Margin : Bestemer hvor stor wrapper boks være iforhold til enhete skjerm
+0 : Den refere til størresel til top og bun 
+auto : refere til høyre og venstre */
 margin: 0 auto;
 padding: 20px;
 display: grid;
+/* Her oppgir det breddene kolonnen i et  */
 grid-template-columns: auto auto auto;
 gap: 10px; 
 }
