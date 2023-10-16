@@ -1,7 +1,7 @@
 /* Her fargerlegger vi bakgrunn med svakt farge : 
 Slik at fokuset til brukeren er mer mot nettside innhold */
 body{
-    background-color: rgb(159, 161, 163);
+    background-color: rgb(221, 224, 228);
 }
 
 
@@ -59,10 +59,6 @@ skalere enkelt basert ifra hvilken enheter/skjermstørrelse brukeren har*/
     grid-column-end: 4;
 }
 
-
-.headergrid{
-    text-align: end;
-}
 
 .gridlink{
     text-align: center;
