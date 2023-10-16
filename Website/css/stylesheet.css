@@ -116,9 +116,6 @@ grid-row: 8/9;
 grid-column: 2/3;
 }
 
-
-
-
 .sub-heading {
     margin-left: 15%;
     margin: 10px;
@@ -127,19 +124,14 @@ grid-column: 2/3;
     grid-column: 2/3;
     }
 
-    .andreparagrafer{
-        margin: 15px;
-        font-family:'Times New Roman', Times, serif;
-        font-size: larger;
-        max-width: 800px;
-        grid-row: 10/11;
-        grid-column: 2/3;
-        }
-
-
-
-        /* Denne gjør fargeboksen ved paragrafene mindre, rører den ikke til jeg finner ut*/
-
+.andreparagrafer{
+    margin: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    max-width: 800px;
+    grid-row: 10/11;
+    grid-column: 2/3;
+    }
 
 .footerpage1{
     background-color: black;
