@@ -151,14 +151,6 @@ grid-column: 2/3;
             gap: 10px; 
             }
 
-        .footerpage2{
-    background-color: black;
-    grid-row: 11;
-    grid-column: 2;
-    text-align: center;
-    color: white;
-}
-
 .footerpage1{
     background-color: black;
     grid-row: 12;
@@ -174,12 +166,11 @@ grid-column: 2/3;
 
 .headerpage2
 {
-
     font-size: xx-large;
     text-align: center;
     grid-column: 1;
     grid-row: 1;
-    
+
 }
 
 .linkpage2{
