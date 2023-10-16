@@ -139,17 +139,7 @@ grid-column: 2/3;
 
 
         /* Denne gjør fargeboksen ved paragrafene mindre, rører den ikke til jeg finner ut*/
-        .wrapperpage2{
-            background-color: rgb(160,160,160);
-            max-width: 70%;
-            min-width: 70%;
-            width: 100%;
-            margin: 0 auto;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: auto auto;
-            gap: 10px; 
-            }
+
 
 .footerpage1{
     background-color: black;
@@ -162,6 +152,18 @@ grid-column: 2/3;
 
 
 /* CSS for secondary page  */
+
+.wrapperpage2{
+    background-color: rgb(160,160,160);
+    max-width: 70%;
+    min-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; 
+    }
 
 
 .headerpage2
