@@ -6,6 +6,8 @@ body{
 /* Wrapper : Oppgitt ønsket farge (Bakgrunn farge)  */
 .wrapper{
 background-color: rgb(160,160,160);
+/* Her velger vi å bruke prosent imotsetting til pixsel: 
+Slik at det er mer fleksible og enklet å skalere på ulike enheter*/
 max-width: 70%;
 min-width: 70%;
 width: 100%;
