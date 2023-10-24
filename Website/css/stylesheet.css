@@ -249,7 +249,7 @@ margin-right: auto;
 
 
     .hpage2{
-        background-color:rgb(255, 191, 0);
+        background-color:rgb(185, 80, 0);
         display: grid;
         width: 100%;
         height: 100%;
@@ -275,7 +275,7 @@ margin-right: auto;
 
 .bordercontainer{
     background-color: white;
-    box-sizing: border-box;
+    grid-template-columns: 14% 70% 14%;
 }
 
 
