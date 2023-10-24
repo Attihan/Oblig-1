@@ -1,7 +1,7 @@
-/* Her fargerlegger vi bakgrunn med svakt farge : 
-Slik at fokuset til brukeren er mer mot nettside innhold */
-body{
-    background-color: rgb(221, 224, 228);
+/* Her fargerlegger vi bakgrunn med en svak gulfarge : 
+Slik at fokuset til brukeren er mer mot nettside innhold, i tilegg for å forsterke våres stil på nettsiden */
+.page1{
+    background-color: rgb(243, 195, 50);
 }
 
 
@@ -17,14 +17,15 @@ width: 100%;
 0 : Den refere til størresel til top og bun 
 auto : refere til høyre og venstre */
 margin: 0 auto;
-padding: 20px;
 display: grid;
 /* Her oppgir det breddene kolonnen
 Samtidig bruket vi "auto" Slik at boksene tilpasser inneholdet dems  */
-grid-template-columns: auto auto auto;
+grid-auto-columns: 14% 70% 14%;
+grid-auto-flow: column;
 /*Som navnet tilsier lager den mellomrom(gap) 
 Her velger bruke 10px som standard størrelse for mellomromene */
 gap: 10px; 
+padding: 20px;
 }
 
 
@@ -45,7 +46,8 @@ skalere enkelt basert ifra hvilken enheter/skjermstørrelse brukeren har*/
     text-align: justify;
     max-width:fit-content;
     margin-bottom: 10px;
-    grid-column: 1/4;
+    grid-column: 1/3;
+    background-color: rgb(255, 191, 0);
 }
 
 .headerbakgrunn{
@@ -54,22 +56,25 @@ skalere enkelt basert ifra hvilken enheter/skjermstørrelse brukeren har*/
     font-size: large;
     width: auto;
     height: 50px;
-    grid-template-columns: auto auto auto;
     gap: 50px;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 1/4;
 }
 
 
 .gridlink{
     text-align: center;
+    grid-row: 0;
+    grid-column: 2;
 }
 
 
 .undertittel{
 margin-top: 1px;
+margin-bottom: 1px;
 font-size: large;
 grid-column: 1/3;
+background-color: rgb(211, 211, 211);
+max-width: fit-content;
 }
 
 .navndato{
@@ -78,13 +83,15 @@ grid-column: 1/3;
     max-width: fit-content;
     grid-row: 4;
     grid-column: 1/3;
-    row-gap: 2px;
+    margin-top: 1px;
+    
 }
 
 
 img{
     max-width: 100% ;
-    height: auto;
+    height: fit-content;
+
 }
 
 .picture-1 {
@@ -95,7 +102,9 @@ img{
 
 .source {
     grid-row: 6;
-    grid-column: 2/3;
+    grid-column: 2;
+    max-width: fit-content;
+    align-self: center;
 }
 
 hr{
@@ -107,39 +116,123 @@ hr{
 
 .backgroundcolorp{
     background-color: rgb(211, 211, 211);
-    grid-row: 8/11 ;
+    grid-row: 8/19 ;
     grid-column: 2/3;
 }
 
-.paragrafer {
+.paragrafer1 {
 margin: 15px;
 font-family:'Times New Roman', Times, serif;
 font-size: larger;
 max-width: 800px;
-grid-row: 8/9;
+grid-row: 8;
 grid-column: 2/3;
+margin-left: auto;
+margin-right: auto;
 }
+
+.paragrafer2 {
+    margin: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    max-width: 800px;
+    grid-row: 9;
+    grid-column: 2/3;
+    margin-left: auto;
+margin-right: auto;
+    }
+
+.paragrafer3 {
+margin: 15px;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+max-width: 800px;
+grid-row: 10;
+grid-column: 2/3;
+margin-left: auto;
+margin-right: auto;
+}
+
+.paragrafer4 {
+    margin: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    max-width: 800px;
+    grid-row: 11;
+    grid-column: 2/3;
+    margin-left: auto;
+margin-right: auto;
+    }
+
+.paragrafer5 {
+margin: 15px;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+max-width: 800px;
+grid-row: 12;
+grid-column: 2/3;
+margin-left: auto;
+margin-right: auto;
+}
+
+.paragrafer6 {
+    margin: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    max-width: 800px;
+    grid-row: 13;
+    grid-column: 2/3;
+    margin-left: auto;
+margin-right: auto;
+    }
+
+.paragrafer7 {
+margin: 15px;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+max-width: 800px;
+grid-row: 14;
+grid-column: 2/3;
+margin-left: auto;
+margin-right: auto;
+}
+
+
 
 .sub-heading {
     margin-left: 15%;
     margin: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    grid-row: 9/10;
+    grid-row: 16;
     grid-column: 2/3;
     }
 
-.andreparagrafer{
+.sub-headingpararaf1{
     margin: 15px;
     font-family:'Times New Roman', Times, serif;
     font-size: larger;
     max-width: 800px;
-    grid-row: 10/11;
+    grid-row: 17;
     grid-column: 2/3;
+    margin-left: auto;
+margin-right: auto;
     }
 
+    
+ .sub-headingpararaf2{
+        margin: 15px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: larger;
+        max-width: 800px;
+        grid-row: 18;
+        grid-column: 2/3;
+        margin-left: auto;
+margin-right: auto;
+        }
+    
 .footerpage1{
     background-color: black;
-    grid-row: 12;
+    grid-row: 19;
     grid-column: 1/4;
     text-align: center;
     color: white;
@@ -149,39 +242,49 @@ grid-column: 2/3;
 
 /* ------------------ CSS for secondary page --------------------------- */
 
-.wrapperpage2{
-    background-color: rgb(160,160,160);
-    max-width: 70%;
-    min-width: 70%;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px; 
+.bodypage2{
+    background-color: white;
+    padding: 0;
     }
 
 
-.headerpage2
-{
-    font-size: xx-large;
-    text-align: center;
-    grid-column: 1;
-    grid-row: 1;
-
-}
+    .hpage2{
+        background-color:rgb(255, 191, 0);
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-column: 1/4;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .htext{
+        font-size: xx-large;
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 1;
+    }
 
 .linkpage2{
-    grid-column: 2;
     grid-row: 1;
-    text-align: center;
+    grid-column: 1;
+    text-align: left;
+    font-size: xx-large;
 
 }
 
+
+.bordercontainer{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+/*
 .learningoutcomes{
     grid-row: 2;
     grid-column: 1/3;
-    text-align: center;
+    text-align: left;
+    font-size: xx-large;
 }
 
 .firstlist{
@@ -239,4 +342,4 @@ text-align: center;
     grid-column: 1/4;
     text-align: center;
     color: white;
-}
+} */
