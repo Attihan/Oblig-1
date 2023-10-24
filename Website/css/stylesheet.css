@@ -272,69 +272,34 @@ margin-right: auto;
 
 }
 
+.gridcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.bordercontainer{
+.gridcontainer{
     background-color: white;
-    grid-template-columns: 14% 70% 14%;
+    grid-template-columns: 80%;
+    display: grid;
 }
 
-
-/*
-.learningoutcomes{
-    grid-row: 2;
-    grid-column: 1/3;
-    text-align: left;
-    font-size: xx-large;
-}
-
-.firstlist{
-    grid-row: 3;
-    grid-column: 2;
-}
-
-
-.secondlist{
-    grid-row: 4;
-    grid-column: 2;
-}
-
-.thirdlist{
-    grid-row: 5;
-    grid-column: 2;
-
-}
-
-.knowledge{
-    grid-row: 3;
-    grid-column: 1;
-    }
-    
-    .skills{
-    grid-row: 4;
-    grid-column: 1;
-    }
-    
-    .competence{
-    grid-row: 5;
-    grid-column: 1;
-    }
-
-
-.accessibility{
-    grid-column: 1/3;
-    grid-row: 6;
+.itemcontainer{
+display: flex;
 text-align: center;
 }
 
-.image1page2{
-    grid-column: 1;
-    grid-row: 7;
+
+.imagepage2{
+    height: auto;
+width: 25%;
+margin-left:auto;
+margin-right: auto;
 }
 
-.image2page2{
-    grid-column: 2;
-    grid-row: 7;
-}
+
+
+
 
 .footerpage2{
     background-color: black;
@@ -342,4 +307,4 @@ text-align: center;
     grid-column: 1/4;
     text-align: center;
     color: white;
-} */
+} 
